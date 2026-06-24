@@ -1,0 +1,28 @@
+{
+  "name": "@rbxts/profilestore",
+  "version": "1.0.0",
+  "main": "out/init.luau",
+  "scripts": {
+    "build": "rbxtsc",
+    "watch": "rbxtsc -w",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [],
+  "author": "MAD STUDIO",
+  "license": "Apache-2.0",
+  "description": "",
+  "types": "out/index.d.ts",
+  "files": [
+    "out",
+    "!**/*.tsbuildinfo"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@rbxts/compiler-types": "^3.0.0-types.0",
+    "@rbxts/types": "^1.0.876",
+    "roblox-ts": "^3.0.0",
+    "typescript": "^5.9.2"
+  }
+}
